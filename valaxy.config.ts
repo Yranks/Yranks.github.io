@@ -4,6 +4,17 @@ import { defineValaxyConfig } from 'valaxy'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
+
+  // 站点地图（SiteGalaxy 组件 + config/sites.ts）
+  'i-ri-planet-line',          // 主站中央图标（静态，其实可加可不加）
+  'i-ri-article-line',         // 博客
+  'i-ri-sticky-note-line',     // 笔记
+  'i-ri-book-open-line',       // 文档
+  'i-ri-code-box-line',        // 项目
+  'i-ri-flask-line',           // 实验
+  'i-ri-tools-line',           // 工具与服务
+  'i-ri-share-line',           // 社交
+  'i-ri-arrow-right-up-line',  // 组件里 tooltip 的外部链接箭头
 ]
 
 /**
@@ -19,6 +30,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,
       title: '花小孩的小站',
     },
+
+    nav: [
+      { text: 'menu.posts', link: '/posts/', icon: 'i-ri-article-line' },
+      { text: '项目列表', link: '/projects', icon: 'i-ri-gallery-view' },
+      { text: '站点地图', link: '/sites/', icon: 'i-ri-planet-line' },
+      { text: '友情链接', link: '/links/', icon: 'i-ri-link' },
+    ],
 
     //  新增背景图配置
     bg_image: {
