@@ -73,6 +73,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/air-conditioner-room/': RouteRecordInfo<
+      '/air-conditioner-room/',
+      '/air-conditioner-room',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/albums/': RouteRecordInfo<
       '/albums/',
       '/albums',
@@ -115,13 +122,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/bangumi/': RouteRecordInfo<
-      '/bangumi/',
-      '/bangumi',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/categories/': RouteRecordInfo<
       '/categories/',
       '/categories',
@@ -132,6 +132,13 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/music/': RouteRecordInfo<
+      '/music/',
+      '/music',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -181,6 +188,27 @@ declare module 'vue-router/auto-routes' {
     '/projects/': RouteRecordInfo<
       '/projects/',
       '/projects',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/README': RouteRecordInfo<
+      '/README',
+      '/README',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/sites/': RouteRecordInfo<
+      '/sites/',
+      '/sites',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/slides/': RouteRecordInfo<
+      '/slides/',
+      '/slides',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -253,6 +281,14 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/air-conditioner-room/index.md': {
+      routes:
+        | '/air-conditioner-room/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/albums/index.md': {
       routes:
         | '/albums/'
@@ -301,14 +337,6 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/bangumi/index.md': {
-      routes:
-        | '/bangumi/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
     'pages/categories/index.md': {
       routes:
         | '/categories/'
@@ -320,6 +348,14 @@ declare module 'vue-router/auto-routes' {
     'pages/links/index.md': {
       routes:
         | '/links/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/music/index.md': {
+      routes:
+        | '/music/'
       views:
         | never
       pathParamNames:
@@ -376,6 +412,30 @@ declare module 'vue-router/auto-routes' {
     'pages/projects/index.md': {
       routes:
         | '/projects/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/README.md': {
+      routes:
+        | '/README'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/sites/index.md': {
+      routes:
+        | '/sites/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/slides/index.md': {
+      routes:
+        | '/slides/'
       views:
         | never
       pathParamNames:

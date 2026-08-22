@@ -1,8 +1,8 @@
 ---
 title: 我的小伙伴们
 keywords: 链接
-description: 云游的小伙伴们
-links: https://friends.yunyoujun.cn/links.json
+description: 花小孩的小伙伴们
+links: /links.json
 random: true
 ---
 
