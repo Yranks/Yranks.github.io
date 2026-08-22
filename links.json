@@ -1,0 +1,16 @@
+[
+  {
+    "avatar": "https://example.com/avatar.jpg",
+    "name": "朋友A",
+    "url": "https://example.com/",
+    "color": "#42b8dd",
+    "desc": "一句话介绍"
+  },
+  {
+    "avatar": "https://example2.com/avatar.png",
+    "name": "朋友B",
+    "url": "https://example2.com/",
+    "color": "#e74c3c",
+    "desc": "另一句介绍"
+  }
+]

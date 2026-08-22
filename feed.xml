@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>花小孩的博客</title>
+        <link>https://yranky.cn/</link>
+        <description>行百里者半九十</description>
+        <lastBuildDate>Sat, 22 Aug 2026 16:35:45 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>花小孩的博客</title>
+            <url>https://yranky.cn/images/avatar.png</url>
+            <link>https://yranky.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 花小孩</copyright>
+        <atom:link href="https://yranky.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[我的第一篇 Valaxy 博客]]></title>
+            <link>https://yranky.cn/posts/test</link>
+            <guid isPermaLink="false">https://yranky.cn/posts/test</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>欢迎使用 Valaxy！这是一个基于 Vue 3 和 Vite 的现代化静态博客框架。</p>
+<h2>标题</h2>
+<p>这里写正文内容。</p>
+<br/><p>访问 <a href="https://yranky.cn/posts/test" target="_blank">https://yranky.cn/posts/test</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (花小孩)</author>
+        </item>
+        <item>
+            <title><![CDATA[我的第二篇 Valaxy 博客]]></title>
+            <link>https://yranky.cn/posts/测试文档</link>
+            <guid isPermaLink="false">https://yranky.cn/posts/测试文档</guid>
+            <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>欢迎使用 Valaxy！这是一个基于 Vue 3 和 Vite 的现代化静态博客框架。</p>
+<h2>标题</h2>
+<p>这里写正文内容。</p>
+<br/><p>访问 <a href="https://yranky.cn/posts/测试文档" target="_blank">https://yranky.cn/posts/测试文档</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (花小孩)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hello, Valaxy!]]></title>
+            <link>https://yranky.cn/posts/hello-valaxy</link>
+            <guid isPermaLink="false">https://yranky.cn/posts/hello-valaxy</guid>
+            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://yranky.cn/posts/hello-valaxy" target="_blank">https://yranky.cn/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (花小孩)</author>
+        </item>
+    </channel>
+</rss>
