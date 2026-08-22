@@ -101,6 +101,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/测试文档': RouteRecordInfo<
+      '/posts/测试文档',
+      '/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
@@ -210,6 +217,14 @@ declare module 'vue-router/auto-routes' {
     'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/测试文档.md': {
+      routes:
+        | '/posts/测试文档'
       views:
         | never
       pathParamNames:
