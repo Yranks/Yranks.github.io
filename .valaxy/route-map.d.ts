@@ -129,65 +129,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/girls/': RouteRecordInfo<
-      '/girls/',
-      '/girls',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/2026-07-13-pin': RouteRecordInfo<
-      '/moments/2026-07-13-pin',
-      '/moments/2026-07-13-pin',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/2026-07-14-nopin': RouteRecordInfo<
-      '/moments/2026-07-14-nopin',
-      '/moments/2026-07-14-nopin',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/2026-08-12-nine-images': RouteRecordInfo<
-      '/moments/2026-08-12-nine-images',
-      '/moments/2026-08-12-nine-images',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/2026-08-13-sunset': RouteRecordInfo<
-      '/moments/2026-08-13-sunset',
-      '/moments/2026-08-13-sunset',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/2026-08-14-nb': RouteRecordInfo<
-      '/moments/2026-08-14-nb',
-      '/moments/2026-08-14-nb',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/draft': RouteRecordInfo<
-      '/moments/draft',
-      '/moments/draft',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/moments/hidden': RouteRecordInfo<
-      '/moments/hidden',
-      '/moments/hidden',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -373,73 +317,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/girls/index.md': {
-      routes:
-        | '/girls/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
     'pages/links/index.md': {
       routes:
         | '/links/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/2026-07-13-pin.md': {
-      routes:
-        | '/moments/2026-07-13-pin'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/2026-07-14-nopin.md': {
-      routes:
-        | '/moments/2026-07-14-nopin'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/2026-08-12-nine-images.md': {
-      routes:
-        | '/moments/2026-08-12-nine-images'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/2026-08-13-sunset.md': {
-      routes:
-        | '/moments/2026-08-13-sunset'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/2026-08-14-nb.md': {
-      routes:
-        | '/moments/2026-08-14-nb'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/draft.md': {
-      routes:
-        | '/moments/draft'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/moments/hidden.md': {
-      routes:
-        | '/moments/hidden'
       views:
         | never
       pathParamNames:

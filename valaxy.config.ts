@@ -20,6 +20,15 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: '花小孩的小站',
     },
 
+    //  新增背景图配置
+    bg_image: {
+      enable: true,
+      url: '/images/background.png',          // 浅色模式背景图（放 public/ 下）
+      dark: '/images/background-dark.png',    // 深色模式背景图（可选）
+      opacity: 0.6,            // 背景透明度 0~1，默认 1
+    },
+
+
     pages: [
       {
         name: '我的小伙伴们',

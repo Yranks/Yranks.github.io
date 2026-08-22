@@ -4,9 +4,16 @@ export default defineSiteConfig({
   url: 'https://yranky.cn',
   lang: 'zh-CN',
   title: '花小孩的博客',
+  favicon: '/images/favicon.svg',
   author: {
     name: '花小孩',
+    avatar: '/images/avatar.png',   // ← 添加头像，路径以 / 开头指向 public/
+    status: {
+      emoji: '🐹',           // 可选：头像角标表情
+      message: '在线',        // 可选：悬停提示
+    },
   },
+
   description: '记录技术成长与生活感悟',
   social: [
     {
