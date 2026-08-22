@@ -13,8 +13,8 @@ export default defineSiteConfig({
       message: '在线',        // 可选：悬停提示
     },
   },
-
-  description: '记录技术成长与生活感悟',
+  subtitle: 'Lose yourself to find yourself.',
+  description: '行百里者半九十',
   social: [
     {
       name: 'RSS',
