@@ -30,18 +30,6 @@ export default defineValaxyConfig<UserThemeConfig>({
 
 
     pages: [
-      {
-        name: '我的小伙伴们',
-        url: '/links/',
-        icon: 'i-ri-genderless-line',
-        color: 'dodgerblue',
-      },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
 
       {
         name: '项目橱窗',
@@ -50,9 +38,10 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'wheat',
       },
 
+
       {
         name: '站点地图',
-        url: '/sitemap.xml',
+        url: '/sites/',
         icon: 'i-ri-map-line',
         color: 'gray',
       },
@@ -63,7 +52,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
       },
-
+      // {
+      //   name: '老婆列表',
+      //   url: '/girls/',
+      //   icon: 'i-ri-women-line',
+      //   color: 'hotpink',
+      // },
 
     ],
 
