@@ -97,7 +97,8 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
+    enable: true,
+    provider: 'fuse',   // 本地搜索（无需额外服务，推荐）
   },
 
   sponsor: {
