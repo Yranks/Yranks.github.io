@@ -33,6 +33,29 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-ri-women-line',
         color: 'hotpink',
       },
+
+      {
+        name: '项目橱窗',
+        url: '/projects/',
+        icon: 'i-ri-gift-line',
+        color: 'wheat',
+      },
+
+      {
+        name: '站点地图',
+        url: '/sitemap.xml',
+        icon: 'i-ri-map-line',
+        color: 'gray',
+      },
+
+      {
+        name: '友情链接',
+        url: '/links/',
+        icon: 'i-ri-genderless-line',
+        color: 'dodgerblue',
+      },
+
+
     ],
 
     footer: {
