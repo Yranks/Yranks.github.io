@@ -38,6 +38,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/_drafts/README': RouteRecordInfo<
+      '/_drafts/README',
+      '/_drafts/README',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/[...path]': RouteRecordInfo<
       '/[...path]',
       '/:path(.*)',
@@ -66,9 +73,51 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/albums/': RouteRecordInfo<
+      '/albums/',
+      '/albums',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/daily': RouteRecordInfo<
+      '/albums/daily',
+      '/albums/daily',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/miracle': RouteRecordInfo<
+      '/albums/miracle',
+      '/albums/miracle',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/sunset': RouteRecordInfo<
+      '/albums/sunset',
+      '/albums/sunset',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/albums/young': RouteRecordInfo<
+      '/albums/young',
+      '/albums/young',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/archives/': RouteRecordInfo<
       '/archives/',
       '/archives',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/bangumi/': RouteRecordInfo<
+      '/bangumi/',
+      '/bangumi',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -80,9 +129,233 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/collections/': RouteRecordInfo<
+      '/collections/',
+      '/collections',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/': RouteRecordInfo<
+      '/collections/hamster/',
+      '/collections/hamster',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/1': RouteRecordInfo<
+      '/collections/hamster/1',
+      '/collections/hamster/1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/2': RouteRecordInfo<
+      '/collections/hamster/2',
+      '/collections/hamster/2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/3': RouteRecordInfo<
+      '/collections/hamster/3',
+      '/collections/hamster/3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/dim-star-sky': RouteRecordInfo<
+      '/collections/hamster/dim-star-sky',
+      '/collections/hamster/dim-star-sky',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/hamsters-evolve-today': RouteRecordInfo<
+      '/collections/hamster/hamsters-evolve-today',
+      '/collections/hamster/hamsters-evolve-today',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/meeting': RouteRecordInfo<
+      '/collections/hamster/meeting',
+      '/collections/hamster/meeting',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/our-journey-is-the-stars-and-sea': RouteRecordInfo<
+      '/collections/hamster/our-journey-is-the-stars-and-sea',
+      '/collections/hamster/our-journey-is-the-stars-and-sea',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/the-duelist-romance': RouteRecordInfo<
+      '/collections/hamster/the-duelist-romance',
+      '/collections/hamster/the-duelist-romance',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/the-lizard-king': RouteRecordInfo<
+      '/collections/hamster/the-lizard-king',
+      '/collections/hamster/the-lizard-king',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/the-third-kind': RouteRecordInfo<
+      '/collections/hamster/the-third-kind',
+      '/collections/hamster/the-third-kind',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/they-are-the-gods': RouteRecordInfo<
+      '/collections/hamster/they-are-the-gods',
+      '/collections/hamster/they-are-the-gods',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/hamster/to-be-or-not-to-be': RouteRecordInfo<
+      '/collections/hamster/to-be-or-not-to-be',
+      '/collections/hamster/to-be-or-not-to-be',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/links-test/': RouteRecordInfo<
+      '/collections/links-test/',
+      '/collections/links-test',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/links-test/1': RouteRecordInfo<
+      '/collections/links-test/1',
+      '/collections/links-test/1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/links-test/2': RouteRecordInfo<
+      '/collections/links-test/2',
+      '/collections/links-test/2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/links-test/3': RouteRecordInfo<
+      '/collections/links-test/3',
+      '/collections/links-test/3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/love-and-peace/': RouteRecordInfo<
+      '/collections/love-and-peace/',
+      '/collections/love-and-peace',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/love-and-peace/1': RouteRecordInfo<
+      '/collections/love-and-peace/1',
+      '/collections/love-and-peace/1',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/love-and-peace/2': RouteRecordInfo<
+      '/collections/love-and-peace/2',
+      '/collections/love-and-peace/2',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/love-and-peace/3': RouteRecordInfo<
+      '/collections/love-and-peace/3',
+      '/collections/love-and-peace/3',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/collections/README': RouteRecordInfo<
+      '/collections/README',
+      '/collections/README',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/girls/': RouteRecordInfo<
+      '/girls/',
+      '/girls',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/links/': RouteRecordInfo<
       '/links/',
       '/links',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/2026-07-13-pin': RouteRecordInfo<
+      '/moments/2026-07-13-pin',
+      '/moments/2026-07-13-pin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/2026-07-14-nopin': RouteRecordInfo<
+      '/moments/2026-07-14-nopin',
+      '/moments/2026-07-14-nopin',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/2026-08-12-nine-images': RouteRecordInfo<
+      '/moments/2026-08-12-nine-images',
+      '/moments/2026-08-12-nine-images',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/2026-08-13-sunset': RouteRecordInfo<
+      '/moments/2026-08-13-sunset',
+      '/moments/2026-08-13-sunset',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/2026-08-14-nb': RouteRecordInfo<
+      '/moments/2026-08-14-nb',
+      '/moments/2026-08-14-nb',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/draft': RouteRecordInfo<
+      '/moments/draft',
+      '/moments/draft',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/moments/hidden': RouteRecordInfo<
+      '/moments/hidden',
+      '/moments/hidden',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/notes/': RouteRecordInfo<
+      '/notes/',
+      '/notes',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -122,9 +395,93 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/projects/': RouteRecordInfo<
+      '/projects/',
+      '/projects',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/sponsors/': RouteRecordInfo<
+      '/sponsors/',
+      '/sponsors',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/tags/': RouteRecordInfo<
       '/tags/',
       '/tags',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/custom-blocks': RouteRecordInfo<
+      '/test/custom-blocks',
+      '/test/custom-blocks',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/deadlinks': RouteRecordInfo<
+      '/test/deadlinks',
+      '/test/deadlinks',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/define-basic-loader': RouteRecordInfo<
+      '/test/define-basic-loader',
+      '/test/define-basic-loader',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/footnotes': RouteRecordInfo<
+      '/test/footnotes',
+      '/test/footnotes',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/i18n': RouteRecordInfo<
+      '/test/i18n',
+      '/test/i18n',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/iframe': RouteRecordInfo<
+      '/test/iframe',
+      '/test/iframe',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/markdown-file-inclusion': RouteRecordInfo<
+      '/test/markdown-file-inclusion',
+      '/test/markdown-file-inclusion',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/special-character': RouteRecordInfo<
+      '/test/special-character',
+      '/test/special-character',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/strato-nav': RouteRecordInfo<
+      '/test/strato-nav',
+      '/test/strato-nav',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/test/time_warning': RouteRecordInfo<
+      '/test/time_warning',
+      '/test/time_warning',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -145,6 +502,14 @@ declare module 'vue-router/auto-routes' {
     'node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/_drafts/README.md': {
+      routes:
+        | '/_drafts/README'
       views:
         | never
       pathParamNames:
@@ -182,9 +547,57 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/albums/index.md': {
+      routes:
+        | '/albums/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/daily.md': {
+      routes:
+        | '/albums/daily'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/miracle.md': {
+      routes:
+        | '/albums/miracle'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/sunset.md': {
+      routes:
+        | '/albums/sunset'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/albums/young.md': {
+      routes:
+        | '/albums/young'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/archives/index.md': {
       routes:
         | '/archives/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/bangumi/index.md': {
+      routes:
+        | '/bangumi/'
       views:
         | never
       pathParamNames:
@@ -198,9 +611,265 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/collections/index.md': {
+      routes:
+        | '/collections/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/index.md': {
+      routes:
+        | '/collections/hamster/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/1.md': {
+      routes:
+        | '/collections/hamster/1'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/2.md': {
+      routes:
+        | '/collections/hamster/2'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/3.md': {
+      routes:
+        | '/collections/hamster/3'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/dim-star-sky.md': {
+      routes:
+        | '/collections/hamster/dim-star-sky'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/hamsters-evolve-today.md': {
+      routes:
+        | '/collections/hamster/hamsters-evolve-today'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/meeting.md': {
+      routes:
+        | '/collections/hamster/meeting'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/our-journey-is-the-stars-and-sea.md': {
+      routes:
+        | '/collections/hamster/our-journey-is-the-stars-and-sea'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/the-duelist-romance.md': {
+      routes:
+        | '/collections/hamster/the-duelist-romance'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/the-lizard-king.md': {
+      routes:
+        | '/collections/hamster/the-lizard-king'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/the-third-kind.md': {
+      routes:
+        | '/collections/hamster/the-third-kind'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/they-are-the-gods.md': {
+      routes:
+        | '/collections/hamster/they-are-the-gods'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/hamster/to-be-or-not-to-be.md': {
+      routes:
+        | '/collections/hamster/to-be-or-not-to-be'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/links-test/index.md': {
+      routes:
+        | '/collections/links-test/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/links-test/1.md': {
+      routes:
+        | '/collections/links-test/1'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/links-test/2.md': {
+      routes:
+        | '/collections/links-test/2'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/links-test/3.md': {
+      routes:
+        | '/collections/links-test/3'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/love-and-peace/index.md': {
+      routes:
+        | '/collections/love-and-peace/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/love-and-peace/1.md': {
+      routes:
+        | '/collections/love-and-peace/1'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/love-and-peace/2.md': {
+      routes:
+        | '/collections/love-and-peace/2'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/love-and-peace/3.md': {
+      routes:
+        | '/collections/love-and-peace/3'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/collections/README.md': {
+      routes:
+        | '/collections/README'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/girls/index.md': {
+      routes:
+        | '/girls/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/links/index.md': {
       routes:
         | '/links/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/2026-07-13-pin.md': {
+      routes:
+        | '/moments/2026-07-13-pin'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/2026-07-14-nopin.md': {
+      routes:
+        | '/moments/2026-07-14-nopin'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/2026-08-12-nine-images.md': {
+      routes:
+        | '/moments/2026-08-12-nine-images'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/2026-08-13-sunset.md': {
+      routes:
+        | '/moments/2026-08-13-sunset'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/2026-08-14-nb.md': {
+      routes:
+        | '/moments/2026-08-14-nb'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/draft.md': {
+      routes:
+        | '/moments/draft'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/moments/hidden.md': {
+      routes:
+        | '/moments/hidden'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/notes/index.md': {
+      routes:
+        | '/notes/'
       views:
         | never
       pathParamNames:
@@ -246,9 +915,105 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/projects/index.md': {
+      routes:
+        | '/projects/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/sponsors/index.md': {
+      routes:
+        | '/sponsors/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/tags/index.md': {
       routes:
         | '/tags/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/custom-blocks.md': {
+      routes:
+        | '/test/custom-blocks'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/deadlinks.md': {
+      routes:
+        | '/test/deadlinks'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/define-basic-loader.md': {
+      routes:
+        | '/test/define-basic-loader'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/footnotes.md': {
+      routes:
+        | '/test/footnotes'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/i18n.md': {
+      routes:
+        | '/test/i18n'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/iframe.md': {
+      routes:
+        | '/test/iframe'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/markdown-file-inclusion.md': {
+      routes:
+        | '/test/markdown-file-inclusion'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/special-character.md': {
+      routes:
+        | '/test/special-character'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/strato-nav.md': {
+      routes:
+        | '/test/strato-nav'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/test/time_warning.md': {
+      routes:
+        | '/test/time_warning'
       views:
         | never
       pathParamNames:
