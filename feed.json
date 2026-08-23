@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "花小孩的博客",
+    "home_page_url": "https://yranky.cn/",
+    "feed_url": "https://yranky.cn/feed.json",
+    "description": "行百里者半九十",
+    "icon": "https://yranky.cn/images/avatar.png",
+    "author": {
+        "name": "花小孩",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://yranky.cn/posts/test",
+            "content_html": "<p>欢迎使用 Valaxy！这是一个基于 Vue 3 和 Vite 的现代化静态博客框架。</p>\n<h2>标题</h2>\n<p>这里写正文内容。</p>\n<br/><p>访问 <a href=\"https://yranky.cn/posts/test\" target=\"_blank\">https://yranky.cn/posts/test</a> 阅读全文。</p>",
+            "url": "https://yranky.cn/posts/test",
+            "title": "我的第一篇 Valaxy 博客",
+            "date_modified": "2026-08-22T00:00:00.000Z",
+            "date_published": "2026-08-22T00:00:00.000Z",
+            "author": {
+                "name": "花小孩",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://yranky.cn/posts/hello-valaxy",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://yranky.cn/posts/hello-valaxy\" target=\"_blank\">https://yranky.cn/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://yranky.cn/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "花小孩",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
