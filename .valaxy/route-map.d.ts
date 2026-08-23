@@ -14,15 +14,10 @@ import type {
   ParamValueZeroOrMore,
   ParamValueZeroOrOne,
 } from 'vue-router'
-import type {
-  _ExtractParamParserType,
-} from 'vue-router/experimental'
 
 declare module 'vue-router' {
   interface TypesConfig {
-    _ParamParsers: {}
-    RouteNamedMap: import('vue-router/auto-routes').RouteNamedMap
-    _RouteFileInfoMap: import('vue-router/auto-routes')._RouteFileInfoMap
+    ParamParsers: never
   }
 }
 
@@ -164,13 +159,6 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/测试文档': RouteRecordInfo<
-      '/posts/测试文档',
-      '/posts/%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
     '/posts/hello-valaxy': RouteRecordInfo<
       '/posts/hello-valaxy',
       '/posts/hello-valaxy',
@@ -238,15 +226,11 @@ declare module 'vue-router/auto-routes' {
         | '/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/_drafts/README.md': {
       routes:
         | '/_drafts/README'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'node_modules/valaxy/client/pages/[...path].vue': {
@@ -254,15 +238,11 @@ declare module 'vue-router/auto-routes' {
         | '/[...path]'
       views:
         | never
-      pathParamNames:
-        | 'path'
     }
     'pages/404.md': {
       routes:
         | '/404'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/about/index.md': {
@@ -270,15 +250,11 @@ declare module 'vue-router/auto-routes' {
         | '/about/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/about/site.md': {
       routes:
         | '/about/site'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/air-conditioner-room/index.md': {
@@ -286,15 +262,11 @@ declare module 'vue-router/auto-routes' {
         | '/air-conditioner-room/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/albums/index.md': {
       routes:
         | '/albums/'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/albums/daily.md': {
@@ -302,15 +274,11 @@ declare module 'vue-router/auto-routes' {
         | '/albums/daily'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/albums/miracle.md': {
       routes:
         | '/albums/miracle'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/albums/sunset.md': {
@@ -318,15 +286,11 @@ declare module 'vue-router/auto-routes' {
         | '/albums/sunset'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/albums/young.md': {
       routes:
         | '/albums/young'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/archives/index.md': {
@@ -334,15 +298,11 @@ declare module 'vue-router/auto-routes' {
         | '/archives/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/categories/index.md': {
       routes:
         | '/categories/'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/links/index.md': {
@@ -350,15 +310,11 @@ declare module 'vue-router/auto-routes' {
         | '/links/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/music/index.md': {
       routes:
         | '/music/'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/notes/index.md': {
@@ -366,31 +322,17 @@ declare module 'vue-router/auto-routes' {
         | '/notes/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
-      pathParamNames:
-        | 'page'
     }
     'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/测试文档.md': {
-      routes:
-        | '/posts/测试文档'
-      views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/posts/hello-valaxy.md': {
@@ -398,15 +340,11 @@ declare module 'vue-router/auto-routes' {
         | '/posts/hello-valaxy'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/posts/test.md': {
       routes:
         | '/posts/test'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/projects/index.md': {
@@ -414,15 +352,11 @@ declare module 'vue-router/auto-routes' {
         | '/projects/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/README.md': {
       routes:
         | '/README'
       views:
-        | never
-      pathParamNames:
         | never
     }
     'pages/sites/index.md': {
@@ -430,23 +364,17 @@ declare module 'vue-router/auto-routes' {
         | '/sites/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/slides/index.md': {
       routes:
         | '/slides/'
       views:
         | never
-      pathParamNames:
-        | never
     }
     'pages/tags/index.md': {
       routes:
         | '/tags/'
       views:
-        | never
-      pathParamNames:
         | never
     }
   }

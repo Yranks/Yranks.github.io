@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [
@@ -24,6 +25,22 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
+
+  siteConfig: {
+    comment: {
+      enable: true,   // ← 开启评论
+    },
+  },
+
+  addons: [
+    addonWaline({
+      serverURL: 'https://waline.yranky.cn',  // ← 你的 Waline 服务端地址
+      // 常用可选配置：
+      // pageview: true,       // 文章浏览量统计
+      // comment: true,        // 评论功能（默认开）
+      // emoji: ['https://unpkg.com/@waline/emojis@1.2.0/weibo'],
+    }),
+  ],
 
   themeConfig: {
     banner: {
