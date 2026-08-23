@@ -30,7 +30,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       enable: true,   // ← 开启评论
     },
   },
-
   addons: [
     addonWaline({
       serverURL: 'https://waline.yranky.cn',  // ← 你的 Waline 服务端地址
