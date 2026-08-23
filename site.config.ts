@@ -9,7 +9,7 @@ export default defineSiteConfig({
     name: '花小孩',
     avatar: '/images/avatar.png',   // ← 添加头像，路径以 / 开头指向 public/
     status: {
-      emoji: '🐹',           // 可选：头像角标表情
+      emoji: '🐻',           // 可选：头像角标表情
       message: '在线',        // 可选：悬停提示
     },
   },
@@ -24,7 +24,7 @@ export default defineSiteConfig({
     },
     {
       name: 'QQ 群 ',
-      // link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      link: '',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
@@ -42,7 +42,7 @@ export default defineSiteConfig({
     },
     {
       name: '豆瓣',
-      link: 'https://www.douban.com/people/yunyoujun/',
+      link: 'https://www.douban.com',
       icon: 'i-ri-douban-line',
       color: '#007722',
     },
@@ -54,25 +54,25 @@ export default defineSiteConfig({
     },
     {
       name: '知乎',
-      link: 'https://www.zhihu.com/people/yunyoujun/',
+      link: 'https://www.zhihu.com',
       icon: 'i-ri-zhihu-line',
       color: '#0084FF',
     },
     {
       name: '哔哩哔哩',
-      link: 'https://space.bilibili.com/1579790',
+      link: 'https://space.bilibili.com',
       icon: 'i-ri-bilibili-line',
       color: '#FF8EB3',
     },
     {
       name: '微信公众号',
-      link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
+      link: '',
       icon: 'i-ri-wechat-2-line',
       color: '#1AAD19',
     },
     {
       name: 'Twitter',
-      link: 'https://twitter.com/YunYouJun',
+      link: 'https://twitter.com',
       icon: 'i-ri-twitter-x-fill',
       color: 'black',
     },
@@ -84,7 +84,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      link: '',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
