@@ -5,7 +5,6 @@ import { addonWaline } from 'valaxy-addon-waline'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
-
   // 站点地图（SiteGalaxy 组件 + config/sites.ts）
   'i-ri-planet-line',          // 主站中央图标（静态，其实可加可不加）
   'i-ri-article-line',         // 博客
