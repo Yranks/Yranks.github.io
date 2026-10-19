@@ -1,3 +1,14 @@
+---
+title: Java + Agent 学习路线与进度
+date: 2026-10-14
+updated: 2026-10-19
+categories:
+  - 学习记录
+tags:
+  - Java
+  - Agent
+---
+
 # Java + Agent 学习路线与进度
 
 创建日期：2026-10-14 ｜ 最近更新：2026-10-19 ｜ 花花
@@ -73,5 +84,4 @@
 | R18 | Java Agent 备选框架 | [LangChain4j 入门](https://docs.langchain4j.dev/get-started/) / [教程目录](https://docs.langchain4j.dev/category/tutorials/) | 对照了解 Java 模型接入、AI Services 与工具；不必同时学完两个框架 |
 | R19 | LeetCode Hot 100 | [力扣热题 100 官方计划](https://leetcode.cn/studyplan/top-100-liked/) | 按题型推进，区分独立完成、看题解后完成和复做通过 |
 | R20 | 数据结构与算法基础 | [Hello 算法](https://www.hello-algo.com/) | 先学复杂度、数组、链表、哈希、树，再结合 Java 示例刷题；作为补充查阅入口 |
-
 
