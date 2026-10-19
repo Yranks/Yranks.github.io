@@ -171,9 +171,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/test': RouteRecordInfo<
-      '/posts/test',
-      '/posts/test',
+    '/posts/Java&Agent-learning': RouteRecordInfo<
+      '/posts/Java&Agent-learning',
+      '/posts/Java&Agent-learning',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -386,9 +386,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/test.md': {
+    'pages/posts/Java&Agent-learning.md': {
       routes:
-        | '/posts/test'
+        | '/posts/Java&Agent-learning'
       views:
         | never
       pathParamNames:
