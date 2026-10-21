@@ -46,7 +46,7 @@ top: 1
 | R01 | JavaSE | [Dev.java 学习入口](https://dev.java/learn/) | 基础语法、面向对象、集合、IO，按学习章节查阅 |
 | R02 | Git | [Pro Git 中文版](https://git-scm.com/book/zh/v2) | 先学仓库、提交、分支、合并与远程仓库；作为补充查阅入口 |
 | R03 | Maven | [Maven 入门指南](https://maven.apache.org/guides/getting-started/) | 项目结构、pom、依赖、生命周期；作为补充查阅入口 |
-| R04 | JavaSE / MySQL / JavaWeb | [黑马官方 Java 学习路线](https://yun.itheima.com/map?hm=) JavaWeb:https://heuqqdmbyk.feishu.cn/wiki/G9W0wL5KYiKWrykH8UAcmxnbnuh| 作为中文课程导航，选定一套课程后持续学习，避免反复切换 |
+| R04 | JavaSE / MySQL / JavaWeb | [JavaWeb] (https://heuqqdmbyk.feishu.cn/wiki/G9W0wL5KYiKWrykH8UAcmxnbnuh) [Java后端学习笔记](https://mcnerzykwkel.feishu.cn/wiki/BwO0wlcRwiuVfPkGMTocox1qnye)| 作为中文课程导航，飞书云文档 |
 | R05 | MySQL | [MySQL 8.4 官方手册](https://dev.mysql.com/doc/refman/8.4/en/) | 先查 SQL、索引与事务；使用其他版本时切换对应手册 |
 | R06 | HTTP / Web 基础 | [MDN HTTP 中文文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP) | 请求响应、状态码、Cookie、缓存；作为补充查阅入口 |
 | R07 | Spring 与项目实践 | [Spring 官方 Guides](https://spring.io/guides/) | 优先 REST 服务、数据访问与 Web 测试相关指南 |
