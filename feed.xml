@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>花小孩的博客</title>
+        <link>https://yranky.cn/</link>
+        <description>行百里者半九十</description>
+        <lastBuildDate>Thu, 29 Oct 2026 10:27:29 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>花小孩的博客</title>
+            <url>https://yranky.cn/images/avatar.png</url>
+            <link>https://yranky.cn/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2026 © 花小孩</copyright>
+        <atom:link href="https://yranky.cn/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[随笔]]></title>
+            <link>https://yranky.cn/posts/FindingMyself</link>
+            <guid isPermaLink="false">https://yranky.cn/posts/FindingMyself</guid>
+            <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近的我呢，状态变得郁郁寡欢。深夜常常去想，路要怎么走，钱要怎么赚，我应该成为什么样的人。很早之前就在慢慢听播客，岩中花述、自我进化、谭立人、无人知晓……非常幸运，播客让我在不同人声中听见大家的故事</p>
+<br/><p>访问 <a href="https://yranky.cn/posts/FindingMyself" target="_blank">https://yranky.cn/posts/FindingMyself</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (花小孩)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java & Agent 学习进度]]></title>
+            <link>https://yranky.cn/posts/Java&amp;Agent-learning</link>
+            <guid isPermaLink="false">https://yranky.cn/posts/Java&amp;Agent-learning</guid>
+            <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Java + Agent 学习路线与进度</h1>
+<p>创建日期：2026-10-14 ｜ 最近更新：2026-10-20 ｜ 花花</p>
+<h2>当前学习进度</h2>
+<p>| 阶段    | 学习内容</p>
+<br/><p>访问 <a href="https://yranky.cn/posts/Java&Agent-learning" target="_blank">https://yranky.cn/posts/Java&Agent-learning</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (花小孩)</author>
+        </item>
+    </channel>
+</rss>
