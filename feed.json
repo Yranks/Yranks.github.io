@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "花小孩的博客",
+    "home_page_url": "https://yranky.cn/",
+    "feed_url": "https://yranky.cn/feed.json",
+    "description": "行百里者半九十",
+    "icon": "https://yranky.cn/images/avatar.png",
+    "author": {
+        "name": "花小孩",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "https://yranky.cn/posts/FindingMyself",
+            "content_html": "<p>最近的我呢，状态变得郁郁寡欢。深夜常常去想，路要怎么走，钱要怎么赚，我应该成为什么样的人。很早之前就在慢慢听播客，岩中花述、自我进化、谭立人、无人知晓……非常幸运，播客让我在不同人声中听见大家的故事</p>\n<br/><p>访问 <a href=\"https://yranky.cn/posts/FindingMyself\" target=\"_blank\">https://yranky.cn/posts/FindingMyself</a> 阅读全文。</p>",
+            "url": "https://yranky.cn/posts/FindingMyself",
+            "title": "随笔",
+            "date_modified": "2026-10-29T00:00:00.000Z",
+            "date_published": "2026-10-29T00:00:00.000Z",
+            "author": {
+                "name": "花小孩",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://yranky.cn/posts/Java&Agent-learning",
+            "content_html": "<h1>Java + Agent 学习路线与进度</h1>\n<p>创建日期：2026-10-14 ｜ 最近更新：2026-10-20 ｜ 花花</p>\n<h2>当前学习进度</h2>\n<p>| 阶段    | 学习内容</p>\n<br/><p>访问 <a href=\"https://yranky.cn/posts/Java&Agent-learning\" target=\"_blank\">https://yranky.cn/posts/Java&Agent-learning</a> 阅读全文。</p>",
+            "url": "https://yranky.cn/posts/Java&Agent-learning",
+            "title": "Java & Agent 学习进度",
+            "date_modified": "2026-10-19T00:00:00.000Z",
+            "date_published": "2026-10-19T00:00:00.000Z",
+            "author": {
+                "name": "花小孩",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
